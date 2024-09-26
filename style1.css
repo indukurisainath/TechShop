@@ -1111,7 +1111,7 @@ li {
 
 .footerhr {
     border: 1px solid grey;
-    width: auto;
+    inline-size: auto;
 }
 
 .bottomfooter {
@@ -1328,8 +1328,8 @@ hr {
     display: flex;
 }
 .productImg-side{
-    width: 110px;
-    height: 110px;
+    inline-size: 110px;
+    block-size: 110px;
     border: 1px solid grey;
     border-radius: 3px;
     margin: 20px 25px;
@@ -1339,9 +1339,9 @@ hr {
     border: 2px solid white;
 }
 .product-Image{
-    width: 579px;
-    height: 961px;
-    margin-top: 10px;
+    inline-size: 579px;
+    block-size: 961px;
+    margin-block-start: 10px;
     object-fit: contain;
 }
 .ratings{
@@ -1367,18 +1367,18 @@ hr {
 }
 .starRating i{
     color: red;
-    padding-top: 7px;
-    padding-bottom: 5px;
+    padding-block-start: 7px;
+    padding-block-end: 5px;
 }
 .yearRatings{
     font-family:"Montserrat", sans-serif ; 
     color:grey;
     font-weight: 400; 
     font-size: 20px;
-    margin-top: 0px;
+    margin-block-start: 0px;
 }
 .productAmount-deatils{
-    margin-top: 20px;
+    margin-block-start: 20px;
     display: flex;
 }
 .offerPrice{
@@ -1415,7 +1415,7 @@ hr {
     color:rgb(195, 186, 213);
     font-weight: 400; 
     font-size: 20px;
-    padding-top: 15px;
+    padding-block-start: 15px;
 }
 .stockBtn{
     background-color: green;
@@ -1425,8 +1425,8 @@ hr {
     padding: 10px 15px;
     border-radius: 4px;
     border-style: none;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-block-start: 50px;
+    margin-inline-start: 20px;
 }
 .stock{
     color: white;
@@ -1443,11 +1443,11 @@ hr {
     border-radius: 3px;
     padding: 8px;
     margin: 20px 7px 20px 7px;
-    width: 180px;
+    inline-size: 180px;
 }
 .horizontal{
     border: 1px solid rgb(55, 55, 55);
-    width: 377px;
+    inline-size: 377px;
 }
 .addtoCartButton{
     background-color: red;
@@ -1457,8 +1457,8 @@ hr {
     font-family:"Montserrat", sans-serif ; 
     border-style: none;
     border-radius: 3px;
-    width: 50%;
-    margin-top: 10px;
+    inline-size: 50%;
+    margin-block-start: 10px;
 }
 
 .specificationsBtn{
@@ -1502,7 +1502,7 @@ li{
     list-style: none;
 }
 .productHeadings{
-    margin-right: 200px;
+    margin-inline-end: 200px;
 }
 .productInfo ul li{
    font-weight: 600;
@@ -1531,7 +1531,7 @@ li{
 .advIcon{
     color: red;
     font-size: 50px;
-    padding-right: 10px;
+    padding-inline-end: 10px;
 }
 .advantageHeading{
     color: rgb(195, 186, 213);
@@ -1572,9 +1572,9 @@ li{
     font-family: "Montserrat", sans-serif;
     padding: 10px 0px 10px 10px ;
     border: 1px solid grey;
-    width: 100%;
+    inline-size: 100%;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-block-end: 10px;
 }
 .subscriberButton{
     color: white;
@@ -1583,7 +1583,7 @@ li{
     padding: 12px 25px;
     border-style: none;
     border-radius: 3px;
-    margin-top: 5px;
+    margin-block-start: 5px;
     transition: background-color 0.9s ease;
 }
 
@@ -1610,7 +1610,7 @@ td{
     font-family:"Montserrat", sans-serif ; 
     color:rgb(195, 186, 213);
     font-weight: 400;
-    width: 75%;
+    inline-size: 75%;
 }
 .creator{
     color: rgb(219, 184, 96);
@@ -1637,16 +1637,16 @@ td{
     justify-content: space-evenly;
 }
 .productCard1{
-    width: 290px;
+    inline-size: 290px;
     border:1px solid grey;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-block-end: 10px;
 }
 .productImage{
-    width: 200px;
-    height: 200px;
+    inline-size: 200px;
+    block-size: 200px;
     margin: 10px 0px;
-    width: 100%;
+    inline-size: 100%;
     object-fit: contain;
 }
 .productCard-title{
@@ -1665,11 +1665,11 @@ td{
 .line-card-1{
     border: 1px solid rgb(55, 55, 55);
     margin: 15px 18px;
-    width: 257px;
+    inline-size: 257px;
 }
 
 .horizontalLine{
-    width: auto;
+    inline-size: auto;
 }
 .productCard-bill{
     color: rgb(195, 186, 213);
@@ -1693,7 +1693,7 @@ td{
     font-family:"Montserrat", sans-serif;
     border-style: none;
     padding: 10px 15px;
-    width: 92%;
+    inline-size: 92%;
     border-radius: 3px;
     transition: background-color 0.9s ease;
 }
@@ -1704,7 +1704,7 @@ td{
 }
 .starRating{
     color: red;
-    padding-left: 20px;
+    padding-inline-start: 20px;
 }
 .relatedProducts{
     padding: 90px 0px 70px 0px;
